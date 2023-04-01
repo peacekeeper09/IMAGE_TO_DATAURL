@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Image to Data URI Converter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Image to Data URI Converter</h1>
+		<label for="image-input" class="upload-button">Upload Image</label>
+		<input type="file" id="image-input" accept="image/*">
+        <div class="ok">
+            <img id="img-preview">
+        </div>
+		<button id="convert-button">Convert to Data URI</button>
+		<textarea id="data-uri"></textarea>
+		<button id="copy-button">Copy to Clipboard</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
