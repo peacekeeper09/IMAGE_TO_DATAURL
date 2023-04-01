@@ -292,6 +292,7 @@ h1 {
 
 #copy-button:after {
     content: "";
-    position:
+    position:relative;
 
+}
 }
