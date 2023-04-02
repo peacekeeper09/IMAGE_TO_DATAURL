@@ -10,6 +10,11 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
 	max-width: 800px;
 	margin: 0 auto;
@@ -47,6 +52,7 @@ h1 {
 }
 
 .upload-button {
+	display: block;
 	margin: 20px auto;
 	background-color: #007bff;
 	color: #fff;
@@ -56,8 +62,6 @@ h1 {
 	cursor: pointer;
 	border-radius: 4px;
 	transition: background-color 0.3s;
-  position: relative;
-  left: 320px;
 }
 
 .upload-button:hover {
@@ -200,6 +204,7 @@ h1 {
 }
 
 .upload-button {
+    display: block;
     margin: 10px auto;
     background-color: #007bff;
     color: #fff;
@@ -209,9 +214,8 @@ h1 {
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+
+    
 }
 
 .upload-button:hover {
